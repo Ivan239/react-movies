@@ -1,6 +1,6 @@
 # React Movie project
 
-This project was created for react skills demonstration using open OMDb API.
+This project was created for react skills demonstration using open OMDb API. Results published on https://ivan239.github.io/react-movies/
 
 ## Capabilities
 
