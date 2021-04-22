@@ -24,7 +24,7 @@ class Main extends React.Component {
   update = (str, type = 'all') => {
     this.setState({ loading: true });
     fetch(
-      `https://www.omdbapi.com/?apikey=${API_KEY}}&s=${str}&type=${
+      `https://www.omdbapi.com/?apikey=${API_KEY}&s=${str}&type=${
         type !== 'all' ? type : ''
       }`
     )
